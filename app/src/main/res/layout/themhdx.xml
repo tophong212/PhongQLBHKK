@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen"
+    android:orientation="vertical">
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="#222"
+            android:text="Mã Hóa đơn xuất: "
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/tvthemmaHDX"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="#050000"
+            android:textSize="14dp" />
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="#222"
+            android:text="Mã Nhân viên: "
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/edtthemmaNVX"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="#050000"
+            android:textSize="14dp" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="305dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e792d5fc"
+            android:gravity="center"
+            android:text="Chi tiết hóa đơn"
+            android:textColor="#222"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="20dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Mã Sản phẩm"
+                android:textColor="#fe080808"
+                android:textStyle="bold" />
+
+
+
+
+            <TextView
+
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Số lượng"
+                android:textColor="#fe080808"
+                android:textStyle="bold" />
+
+            <TextView
+
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Đơn giá"
+                android:textColor="#fe080808"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+
+                android:id="@+id/ctxMasp"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#fe080808" />
+
+
+
+            <EditText
+
+                android:id="@+id/ctxSLg"
+                android:layout_width="15dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:inputType="number"
+                android:textColor="#fe080808" />
+
+            <TextView
+                android:inputType="number"
+                android:id="@+id/ctnGia"
+                android:layout_width="35dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="#fe080808" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listHienCTHDX"
+            android:layout_width="match_parent"
+            android:layout_height="135dp" />
+
+        <Button
+            android:id="@+id/btthemChitietX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:text="Thêm SP" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btThemhdx"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:text="Thêm Hóa đơn"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen"
+    android:orientation="vertical"
+    tools:context=".HoaDonNhap.TTHoaDonNhap">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hóa đơn mã: "
+            android:textColor="#222"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMaCTHDN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:hint="MaHD"
+            android:textColor="#222"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tên nhân viên: "
+            android:textColor="#222"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvtenNVN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#222"
+            android:textSize="20dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Tên Nhà cung cấp: "
+            android:textColor="#222"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tvNCCcthdn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:hint="Tên nhà cung cấp"
+            android:textColor="#222"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Chi tiết hóa đơn"
+        android:textColor="#0B1755"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+
+        <TextView
+            android:layout_width="205dp"
+            android:layout_height="30dp"
+            android:text="Tên sản phẩm"
+            android:textColor="#222"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="SL"
+            android:textColor="#222"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="Giá nhập"
+            android:textColor="#222"
+            android:textSize="16dp" />
+    </TableRow>
+
+    <ListView
+        android:id="@+id/listviewCTHDN"
+        android:background="@drawable/tk"
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginTop="5dp"
+         />
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tổng tiền: "
+            android:textColor="#222"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTTNhapcthdn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:hint="Tổng tiền trả"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:textColor="@color/black"
+            android:text="VNĐ"
+            android:textSize="14dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thời gian nhập: "
+            android:textColor="#222"
+            android:textSize="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTGNhapcthdn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:hint="01/01/2020"
+            android:textColor="#000000"
+            android:textSize="16dp" />
+    </TableRow>
+
+</LinearLayout>

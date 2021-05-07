@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hãy chọn thông tin cần thống kê"
+        android:textColor="#222"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/bttkdoanhthun"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Doanh thu ngày"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/bttkdoanhthut"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Doanh thu tháng"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/bttksanpham"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Sản phẩm"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/bttkmh"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Nhà cung cấp"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/bttkslh"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Số lượng nhập xuất hàng"
+        android:textColor="@color/black" />
+</LinearLayout>

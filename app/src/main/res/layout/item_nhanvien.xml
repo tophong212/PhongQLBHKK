@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:text="Mã NV:  "
+                android:textColor="#222"/>
+            <TextView
+                android:id="@+id/tvmanv"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:text="NV001 "
+                android:textColor="#222"
+                android:textStyle="bold"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:text="Tên NV:  "
+                android:textColor="#222"/>
+            <TextView
+                android:id="@+id/tvtennv"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:text="Tên NV "
+                android:textColor="#222"/>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:text="SĐT:  "
+                android:textColor="#222"/>
+            <TextView
+                android:id="@+id/tvsdtnv"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                android:text="093247xxxx "
+                android:textColor="#222"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

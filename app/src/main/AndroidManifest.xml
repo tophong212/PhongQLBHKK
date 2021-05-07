@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.qlbhkk">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QLBHKK">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MatHang.QLmathang" />
+        <activity android:name=".NhaCungCap.QLnhacungcap" />
+        <activity android:name=".SanPham.QLsanpham" />
+        <activity android:name=".NhanVien.QLnhanvien" />
+        <activity android:name=".MatHang.CTmathang" />
+        <activity android:name=".MatHang.Themmh" />
+        <activity android:name=".NhaCungCap.CTnhacungcap" />
+        <activity android:name=".NhanVien.Themnv" />
+        <activity android:name=".SanPham.Themsp" />
+        <activity android:name=".NhaCungCap.Themncc" />
+        <activity android:name=".NhanVien.CTnhanvien" />
+        <activity android:name=".SanPham.CTsanpham" />
+        <activity android:name=".chonhoadon" />
+        <activity android:name=".HoaDonXuat.QLHoaDonXuat" />
+        <activity android:name=".HoaDonNhap.QLHoaDonNhap" />
+        <activity android:name=".HoaDonNhap.ThemHDN" />
+        <activity android:name=".HoaDonNhap.TTHoaDonNhap" />
+        <activity android:name=".HoaDonXuat.TTHoaDonXuat" />
+        <activity android:name=".HoaDonXuat.ThemHDX" />
+        <activity android:name=".HoaDonNhap.Themsp_hdn" />
+        <activity android:name=".Thongke.Thongke" />
+        <activity android:name=".Thongke.tksanphambc.tksanpham" />
+        <activity android:name=".Thongke.tkncc.tkncc" />
+        <activity android:name=".Thongke.tkngay.thunhap" />
+        <activity android:name=".Thongke.tkthang.tkthang" />
+        <activity android:name=".Thongke.tkslhang_nhap_xuat.tksl_nhapxuat" />
+    </application>
+
+</manifest>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/hinhnen"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Chọn thời gian thống kê"
+        android:textColor="#222"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nhập ngày"
+                android:textColor="#222"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:inputType="date"
+                android:textColor="#222"
+                android:textSize="20sp"
+                android:id="@+id/edtngay"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btxacnhan"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:text="Xác nhận"/>
+
+    <TextView
+        android:id="@+id/tvThang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số liệu thống kê"
+        android:gravity="center"
+        android:textColor="#222"
+        android:layout_marginTop="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#F4FCED"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:background="#FF9800"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Doanh thu bán "
+            android:textColor="#222"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvDoanhThu"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="2000000"
+            android:textColor="#222"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#222"
+            android:layout_height="wrap_content"
+            android:text="Đồng" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#F4FCED"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:background="#F44336"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Chi phí nhập "
+            android:textColor="#222"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvChiPhi"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="2000000"
+            android:textColor="#222"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#222"
+            android:layout_height="wrap_content"
+            android:text="Đồng" />
+    </TableRow>
+
+    <TableRow
+
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#F4FCED"
+        android:layout_height="40dp" >
+
+        <TextView
+            android:background="#2EA032"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10dp"
+            />
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Lợi nhuận"
+            android:textColor="#222"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvLoiNhuan"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="2000000"
+            android:textColor="#222"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:layout_width="wrap_content"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="#222"
+            android:layout_height="wrap_content"
+            android:text="Đồng" />
+    </TableRow>
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnen"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DAD5D5"
+        android:gravity="center"
+        android:text="Hãy chọn một hóa đơn"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal">
+
+        <TableRow
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/imbhdn"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:background="#00EBE7E7"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hdxuat" />
+
+            <ImageButton
+                android:id="@+id/imbhdx"
+                android:layout_width="180dp"
+                android:layout_height="160dp"
+                android:layout_marginLeft="10dp"
+                android:background="#00EBE7E7"
+                android:scaleType="fitCenter"
+                android:src="@drawable/hdon" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Hóa đơn nhập"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Hóa đơn xuất"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

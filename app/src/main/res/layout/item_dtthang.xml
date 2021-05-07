@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/tvThang"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:textColor="#222"
+            android:text="Tháng"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/tvChiPhi"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textColor="#222"
+            android:text="Chi phí"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/tvDoanhThu"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:textColor="#222"
+            android:text="Doanh thu"
+            android:textSize="15sp"
+            />
+        <TextView
+            android:id="@+id/tvLoiNhuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#222"
+            android:text="Lợi nhuận"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+
+</LinearLayout>
